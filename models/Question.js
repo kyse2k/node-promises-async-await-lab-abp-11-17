@@ -5,7 +5,7 @@ class Question {
     this.content = content;
   }
 
-  static async All(){
+  static All(){
     console.log("Waiting for Questions to load...")
     return new Promise(function(resolve){
       setTimeout(function(){
